@@ -22,8 +22,32 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# Devise gem for Users and Sessions
+gem 'devise'
+
+# Cancancan gem for authorization
+gem 'cancancan'
+
+# Pay gem for payments and subscriptions
+gem 'pay', '~> 2.0'
+
+# To use Stripe, also include:
+# gem 'stripe', '< 6.0', '>= 2.8'
+
+# To use Braintree + PayPal, also include:
+# gem 'braintree', '< 3.0', '>= 2.92.0'
+
+# To use Paddle, also include:
+# gem 'paddle_pay', '~> 0.1'
+
+# To use Receipts
+# gem 'receipts', '~> 1.0.0'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
+
+# Simple Calendar gem for scheduling and calendar
+gem 'simple_calendar', '~> 2.4'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
